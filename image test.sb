@@ -1,0 +1,11 @@
+'Create a clickabe text area with checkboxes
+GraphicsWindow.DrawImage(1.jpg,100,200)
+
+
+TextWindow.WriteLine("Hello")
+dank = TextWindow.Read()
+Sub OnMouseDown
+  mx = GraphicsWindow.MouseX
+  my = GraphicsWindow.MouseY
+
+EndSub

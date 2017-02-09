@@ -1,0 +1,18 @@
+' Assignment 1 Part 1A- Create a program that prints name 10 times in differnet coulors
+
+
+
+
+For counter =1 To 10
+Timer.Interval = 1000 
+TextWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+TextWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+textWindow.WriteLine  ("Brandon Axtmann")
+EndFor
+
+
+
+
+
+
+

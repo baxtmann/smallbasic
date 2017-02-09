@@ -1,0 +1,29 @@
+TextWindow.Write("Enter your name:  ")
+name = TextWindow.Read()
+TextWindow.Write("Enter the name of your city:  ")
+city = TextWindow.Read()
+TextWindow.Write("Enter the name of your favourite movie:  ")
+movie = TextWindow.Read()
+TextWindow.Clear()
+
+TextWindow.WriteLine("******************************")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("     20th Century Fox")
+TextWindow.WriteLine("         Presents")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("           "+name)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("       Starring in")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("           "+movie)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("  Special preview showing in")
+TextWindow.WriteLine("           "+city)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("******************************")
+TextWindow.WriteLine("")
+
+
+
+
+

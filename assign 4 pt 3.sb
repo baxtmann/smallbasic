@@ -1,0 +1,33 @@
+'Programming Assignmnet #4 #3
+'Brandon Axtmann
+'Feb 08 2017
+TextWindow.WriteLine("Payment Calculator")
+TextWindow.WriteLine("~~~~~~~~~~~~~~~~~~")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Enter the amount of the loan")
+loan = TextWindow.Read()
+intrest = loan *.05
+totalloan = loan+intrest
+payments =totalloan/12
+TextWindow.WriteLine("Your monthly payments will be ")
+TextWindow.WriteLine(payments)
+TextWindow.WriteLine("for the next 12 months")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

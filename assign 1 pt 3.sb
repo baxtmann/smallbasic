@@ -1,0 +1,7 @@
+TextWindow.WriteLine  ("BBBB   JJJJJ    A")
+TextWindow.WriteLine  ("B   B    J     A A")
+TextWindow.WriteLine  ("B   B    J    A   A")
+TextWindow.WriteLine  ("BBBB     J    AAAAA")
+TextWindow.WriteLine  ("B   B  J J    A   A")
+TextWindow.WriteLine  ("B   B  J J    A   A")
+TextWindow.WriteLine  ("BBBB    JJ    A   A")

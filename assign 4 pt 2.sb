@@ -1,0 +1,30 @@
+'Programming Assignmnet #4 #2
+'Brandon Axtmann
+'Feb 08 2017
+TextWindow.WriteLine("Money Calculator")
+TextWindow.WriteLine("~~~~~~~~~~~~~~~~~~")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Enter the number of Toonies")
+twodollar = TextWindow.Read()
+TextWindow.WriteLine("Enter the number of dollars")
+dollar = TextWindow.Read()
+TextWindow.WriteLine("Enter the amount of quarters")
+quarter = TextWindow.Read()
+TextWindow.WriteLine("Enter the amount of dimes")
+dime = TextWindow.Read()
+TextWindow.WriteLine("Enter the amount of nickels")
+nickel = TextWindow.Read()
+TextWindow.WriteLine("Enter the number of pennies")
+penny = TextWindow.Read()
+TextWindow.WriteLine("")
+dollarTotal = dollar *1
+quarterTotal = quarter *0.25
+dimeTotal = dime*0.10
+nickelTotal= nickel*0.05
+twodollarTotal= twodollar*2
+pennyTotal= penny*0.01
+Total= dollartotal+quarterTotal+dimeTotal+nickelTotal+pennyTotal+twodollarTotal
+TextWindow.Write("You have $ ")
+TextWindow.Write(total)
+
+
